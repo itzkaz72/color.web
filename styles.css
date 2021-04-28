@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+html, html * {
+    margin: 0;
+}
+.gradBackground {
+    background: linear-gradient(63deg, #2a97ca, #d527df, #e8402a);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 17s ease infinite;
+    -moz-animation: AnimationName 17s ease infinite;
+    animation: AnimationName 17s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 92% 0%
+    }
+    50% {
+        background-position: 9% 100%
+    }
+    100% {
+        background-position: 92% 0%
+    }
+}
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 92% 0%
+    }
+    50% {
+        background-position: 9% 100%
+    }
+    100% {
+        background-position: 92% 0%
+    }
+}
+@keyframes AnimationName {
+    0% {
+        background-position: 92% 0%
+    }
+    50% {
+        background-position: 9% 100%
+    }
+    100% {
+        background-position: 92% 0%
+    }
+}
+.mainText {
+    margin: auto;
+    font-size: 1.5625em;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+    color: #fff;
+    text-align: center;
+    padding-left: 15.625em;
+    padding-right: 15.625em;
+    padding-bottom: 18.75em;
+    padding-top: 18.75em;
+}
+.randColr {
+    color: black;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    padding: 15.625em;
+    text-align: center;
+    background-color: white;
+    width: 30%;
+    height: 20%;
+    border-radius: 1.5em;
+    margin: auto;
+    margin-top: 21.875;
+    display: block;
+    vertical-align: center;
+}
+.randBack {
+    background-color: black;
+    padding-right: 9em;
+    padding-left: 9em;
+    padding-top: 6.25em;
+    padding-bottom: 6.25em;
+    transition: 0.2s;
+}
+.randButton {
+    background-color: lightgray;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.2s;
+    border-radius: 1.5em;
+}
+.randButton:hover {
+    background: linear-gradient(to bottom right, #12d6df -7%, #f70fff 100%);
+    color: white;
+    cursor: pointer;
+}
+.roll {
+    color: black;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    padding: 15.625em;
+    text-align: center;
+    background-color: white;
+}
+footer {
+    background-color: white;
+    margin: auto;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    padding: 1.875em;
+}
+.footHead {
+    text-align: center;
+}
+.footPar {
+    text-align: center;
+}
+/* scrollbar */ ::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 1px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    transition: 0.7s;
+}
