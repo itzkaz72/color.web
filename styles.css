@@ -51,9 +51,9 @@ html, html * {
     text-align: center;
     padding-left: 15.625em;
     padding-right: 15.625em;
-    padding-bottom: 50%;
+    padding-bottom: 25%;
 
-    padding-top: 50%;
+    padding-top: 25%;
 }
 .randColr {
     color: black;
